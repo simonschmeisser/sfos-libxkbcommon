@@ -47,8 +47,6 @@ Requires:       %{name}%{?_isa} = %{version}-%{release}
 %install
 %meson_install
 
-%ldconfig_scriptlets
-
 %files
 %license LICENSE
 %{_libdir}/libxkbcommon.so.0*
