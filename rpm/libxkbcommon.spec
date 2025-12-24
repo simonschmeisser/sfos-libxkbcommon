@@ -11,10 +11,8 @@ Source0:        https://github.com/xkbcommon/libxkbcommon/archive/refs/tags/%{ta
 BuildRequires:  gcc
 BuildRequires:  git meson
 BuildRequires:  byacc flex bison
-#BuildRequires:  xorg-x11-proto-devel libX11-devel
 BuildRequires:  pkgconfig(wayland-client) pkgconfig(wayland-protocols)
 BuildRequires:  xkeyboard-config-devel
-BuildRequires:  pkgconfig(xcb-xkb) >= 1.10
 BuildRequires:  libxml2-devel
 
 Requires:       xkeyboard-config
